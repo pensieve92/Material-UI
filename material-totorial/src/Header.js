@@ -15,7 +15,7 @@ const Header = () => {
     return (
         <AppBar position="static" color="primary">
             <Toolbar>
-                <Typography className={classes.typographyStyles}>
+                <Typography variant= "h4" className={classes.typographyStyles}>
                     This is the header
                 </Typography>
                 <AcUnitIcon />
